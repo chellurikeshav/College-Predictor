@@ -1,0 +1,25 @@
+@import "variables";
+
+footer {
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  h1 {
+    font-family: $font-2;
+    font-size: 1.5rem;
+    padding: 5px;
+    text-align: center;
+  }
+  .icons {
+    width: 70%;
+    display: flex;
+  }
+  .icons > * {
+    flex: 1;
+    text-align: center;
+  }
+}
